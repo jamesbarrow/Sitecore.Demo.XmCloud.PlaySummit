@@ -60,6 +60,7 @@ function App({ Component, pageProps, router }: AppPropsWithLayout): JSX.Element 
         <meta httpEquiv="X-UA-Compatible" content="IE=edge"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <meta name="description" content="PLAY! Summit" />
+        <meta name="james" content="test" />
       </Head>
 
       {/* DEMO TEAM CUSTOMIZATION - CDP integration. It is important this script is rendered before the <Component> so the CDP calls made on the first page load are successful. */}
