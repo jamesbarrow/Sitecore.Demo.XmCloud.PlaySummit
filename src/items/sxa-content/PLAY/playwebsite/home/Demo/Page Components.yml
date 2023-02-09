@@ -1,0 +1,27 @@
+﻿---
+ID: "b343056b-1e67-4efd-aef7-de89149b0bda"
+Parent: "115aa4c2-1fc6-4197-af70-63d9e6c29df8"
+Template: "a87a00b1-e6db-45ab-8b54-636fec3b5523"
+Path: /sitecore/content/PLAY/playwebsite/home/Demo/Page Components
+BranchID: "4afa104f-090a-438e-af07-8134d5d27dd9"
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: Office/32x32/box_into.png
+- ID: "a791f095-2521-4b4d-bef9-21dda221f608"
+  Hint: __Style
+  Value: "font-style:italic; font-size:0.85em; color: gray;"
+- ID: "ba3f86a2-4a1c-4d78-b63d-91c2779c1b5e"
+  Hint: __Sortorder
+  Value: 100
+- ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
+  Hint: __Originator
+  Value: "{ABC9B127-6663-4EF5-8D06-84DC46AA6189}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "0e40f351-6768-4dc0-b636-4ef69f8ccddc"

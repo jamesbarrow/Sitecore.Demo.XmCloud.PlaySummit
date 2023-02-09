@@ -1,0 +1,21 @@
+﻿---
+ID: "5f2bd4f0-3daa-4938-8901-65bb771ce792"
+Parent: "bf94549f-5b24-4cee-a5a7-192786e853f8"
+Template: "45b5d66a-5929-471b-8a08-24c3d77c2392"
+Path: /sitecore/system/Workflows/Demo Workflow/Draft/Submit/Send to Connect
+SharedFields:
+- ID: "f9f59338-045d-4da8-80f0-ce7f7d92e4af"
+  Hint: Url
+  Value: "https://webhooks.sg.workato.com/webhooks/rest/427cac88-25b5-409c-91a1-61d3abd534d0/submit-workflow-from-xm-cloud"
+Languages:
+- Language: en
+  Fields:
+  - ID: "305fa64b-5785-4171-aa73-de715e21ae21"
+    Hint: Description
+    Value: Send the workflow submission to Connect for notifications
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "955dc962-4868-46e5-8e1a-4da1ea463d61"

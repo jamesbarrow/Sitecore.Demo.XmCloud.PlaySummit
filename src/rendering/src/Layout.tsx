@@ -19,6 +19,7 @@ import HeaderCdpMessageBar from './components/HeaderCdpMessageBar';
 // DEMO TEAM CUSTOMIZATION - Sitecore Search integration
 import { QueryClientProvider } from '@tanstack/react-query';
 import { queryClient } from './helpers/ContentSearchHelper';
+import SendTracking from './components/Forms/Send/SendTracking';
 // END CUSTOMIZATION
 
 // Prefix public assets with a public URL to enable compatibility with Sitecore Experience Editor.
@@ -74,6 +75,7 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
         <title>{pageTitle}</title>
         <link rel="icon" href={`${publicUrl}/favicon.ico`} />
         <meta name="robots" content="noindex" />
+        <SendTracking />
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}
