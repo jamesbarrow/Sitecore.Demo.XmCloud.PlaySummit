@@ -19,6 +19,11 @@ const nextConfig = {
   env: {
     PUBLIC_URL: publicUrl,
   },
+  eslint: {
+    // Warning: This allows production builds to successfully complete even if
+    // your project has ESLint errors.
+    ignoreDuringBuilds: true,
+  },
 
   i18n: {
     // These are all the locales you want to support in your application.

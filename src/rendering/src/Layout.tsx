@@ -2,6 +2,7 @@
  * This Layout is needed for Starter Kit.
  */
 import React, { useEffect } from 'react'; // DEMO TEAM CUSTOMIZATION - Log page views in CDP
+// import Script from 'next/script'
 import Head from 'next/head';
 // DEMO TEAM CUSTOMIZATION - Add LayoutServicePageState
 import {
@@ -66,16 +67,18 @@ const Layout = ({ layoutData }: LayoutProps): JSX.Element => {
     pageTitle += ` - ${fields.Title.value.toString()}`;
   }
   // END CUSTOMIZATION
-
+  //
   return (
     <>
       <Scripts />
+      
       <Head>
         {/* DEMO TEAM CUSTOMIZATION - Use event name from context as the page title */}
         <title>{pageTitle}</title>
         <link rel="icon" href={`${publicUrl}/favicon.ico`} />
         <meta name="robots" content="noindex" />
-        <SendTracking />
+        <script src={`${publicUrl}/scripts/moosend.js`}></script>
+        <meta name="sc" content="1" />
       </Head>
 
       {/* root placeholder for the app, which we add components to using route data */}

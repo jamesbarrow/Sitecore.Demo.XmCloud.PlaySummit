@@ -1,7 +1,7 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
 
-import SendNewsletterForm from '../../../components/Forms/Send/SendNewsletterForm';
+import { Default as SendNewsletterForm } from '../../../components/Forms/Send/SendNewsletterForm';
 
 export default {
   title: 'Components/Forms/Send/NewsletterForm',

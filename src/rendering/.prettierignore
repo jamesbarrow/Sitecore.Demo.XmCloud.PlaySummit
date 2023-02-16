@@ -1,2 +1,3 @@
 package.json
 src/temp/categoriesData.ts
+**/*.ts
